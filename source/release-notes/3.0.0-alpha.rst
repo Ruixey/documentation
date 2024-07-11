@@ -120,6 +120,14 @@ v3.0.0 - Alpha 6
 Changelog
 #########
 
+- Fix GORM and it's method of doing updates
+
+v3.0.0 - Alpha 7
+================
+
+Changelog
+#########
+
 - Fix openvz support for openat with really old kernels
 - Add tooltips to icons
 - Fix migrations for clients from v2
