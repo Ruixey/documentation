@@ -133,3 +133,10 @@ Changelog
 - Fix migrations for clients from v2
 - Expose better UI for managing admin-level variables
 - Add mask to password for email settings
+
+v3.0.0 - Alpha 8
+================
+
+Changelog
+#########
+- Resolve issues with remote nodes and SFTP access
