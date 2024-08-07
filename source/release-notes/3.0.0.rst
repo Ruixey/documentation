@@ -1,7 +1,7 @@
-v3.0.0 - Alpha
-================
+v3.0.0 - Release Candidate 1
+============================
 
-This marks the alpha releases of v3.0.0. This release has been years in the making.
+This marks the first release candidate of v3.0.0. This release has been years in the making.
 It comes with significant changes to the backend and frontend to ensure a smoother experience.
 
 The goals of v3 are to improve on things we learned from v2 and update the UI to a more friendly
@@ -140,3 +140,25 @@ v3.0.0 - Alpha 8
 Changelog
 #########
 - Resolve issues with remote nodes and SFTP access
+
+v3.0.0 - Alpha 9
+================
+
+Changelog
+#########
+- Fix issues related to migration for MySQL
+
+v3.0.0 - Alpha 10
+=================
+
+Changelog
+#########
+- Fix the UI and backend for saving docker settings including port bindings
+
+v3.0.0 - Release Candidate 1
+============================
+
+Changelog
+#########
+- Fix CurseForge operation to handle parsing variables.txt with comments
+- Add translation key for missing operator

@@ -8,6 +8,7 @@ PufferPanel - Open Source Game Server Management
    installing
    docker
    faq
+   migrate
 
 .. toctree::
    :maxdepth: 1
@@ -50,4 +51,4 @@ PufferPanel - Open Source Game Server Management
    :maxdepth: 1
    :caption: Release Notes
 
-   release-notes/3.0.0-alpha
+   release-notes/3.0.0
