@@ -34,6 +34,10 @@ exposed a new config entry so that servers using Docker can better expose a fold
 that isn't explicitly defined in the image. Previously, it was an explicit path, and changing it 
 required changing several things. Now, a single config entry allows hiding this.
 
+We have also exposed options to pull basic JVM stats and query Minecraft servers. While the UI
+work to have this displayed is not done as of RC 2, this is now supported. A future version will
+show these stats and information.
+
 We also have created a new "tester" designed to keep our templates more consistent and ensure 
 they function prior to being released. Generally speaking, the templates now have been at least 
 validated to run and not crash immediately. This does mean we have removed several templates that 
@@ -162,3 +166,19 @@ Changelog
 #########
 - Fix CurseForge operation to handle parsing variables.txt with comments
 - Add translation key for missing operator
+
+v3.0.0 - Release Candidate 2
+============================
+
+Changelog
+#########
+- Fix console from swallowing messages when using HTTP fallback
+- Fix updating nodes
+- Fix pipeline to properly set CurseForge key
+- Add support for Docker labels
+- Fix password validation to now be consistent across CLI and web
+- Fix checking for running Docker container to be explicit
+- Validate server is not running when deleting the server
+- Return specific error when account is not permitted to log in
+- Add JCMD support. Allows for getting memory usage from within Java, instead of just what the OS sees.
+- Fix server edit to avoid creating a duplicate node
