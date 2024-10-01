@@ -190,3 +190,4 @@ Changelog
 #########
 - Add display for JCMD stats
 - Resolve issues with migrations for Postgres and MySQL
+- Fix issue with local node message appearing for non-local nodes
